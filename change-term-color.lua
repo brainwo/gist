@@ -4,7 +4,6 @@ local mp = require 'mp'
 local os = require 'os'
 
 local function my_fn(event)
-    print("start of playback!")
     if (event.reason == "quit")
     then
 	os.execute("kitty @ set-colors -a background=#1f2d3a")
