@@ -6,7 +6,7 @@ local os = require 'os'
 local function my_fn(event)
     if (event.reason == "quit")
     then
-        os.execute("kitty @ set-colors -a background=#1f2d3a")
+    	endos.execute("kitty @ set-colors -a background=#1f2d3a")
     end
 end
 
