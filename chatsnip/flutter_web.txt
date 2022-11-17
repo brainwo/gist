@@ -1,0 +1,5 @@
+Web is just another target for Flutter, but sure you might implement few platform specific "changes" for it. Example being `SelectionArea` widget to replicate the experience of selecting text on the web.
+You will find them once you try to make it work for web.
+Other thing to keep in mind is not every packages for mobile works with web. So you will have to change them.
+To get started if you haven't already `flutter create . --platform web` on your existing project (run it on the root)
+And also `flutter config enable web` to enable web build for every future Flutter project you create.
