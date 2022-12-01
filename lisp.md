@@ -38,6 +38,8 @@ https://racket-lang.org/
 (newline))
 ```
 
-```lisp
+### Lisp
 
+```lisp
+(print "Hello, World!")
 ```
