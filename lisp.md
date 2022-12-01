@@ -43,3 +43,9 @@ https://racket-lang.org/
 ```lisp
 (print "Hello, World!")
 ```
+
+### Clojure
+
+```clj
+(prn "Hello, World!")
+```
