@@ -12,6 +12,13 @@ https://lisp-lang.org/
 ### Racket
 
 https://racket-lang.org/
-
 👍 Good resources
 👎 Not helpful, confusing error
+
+## Hello World
+
+### Common Lisp
+
+```lisp
+(format t "Hello, World!")
+```
