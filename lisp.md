@@ -22,3 +22,8 @@ https://racket-lang.org/
 ```lisp
 (format t "Hello, World!")
 ```
+
+```rkt
+#lang racket/base
+"Hello, World!"
+```
