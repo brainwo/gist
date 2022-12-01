@@ -27,3 +27,9 @@ https://racket-lang.org/
 #lang racket/base
 "Hello, World!"
 ```
+
+```scm
+(begin
+  (display "Hello, World!")
+(newline))
+```
