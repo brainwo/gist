@@ -7,17 +7,7 @@ void main() async {
     0,
   );
 
-  socket.listen((event) {
-    print(utf8.decode(event));
+  socket.map(utf8.decode).listen((event) {
+    print(event);
   });
-
-  while (true) {
-    String? input = stdin.readLineSync()?.trim();
-    switch (input) {
-      case "p":
-        socket.writeln('{ "command": ["cycle", "pause"] }');
-      default:
-        print("On recognize");
-    }
-  }
 }
