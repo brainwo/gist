@@ -1,5 +1,8 @@
 {
     "models": [
+      {
+
+      },
         {
             "modelName": "Czech-English base",
             "shortName": "cs-en-base",
